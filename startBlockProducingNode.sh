@@ -5,7 +5,7 @@
 #
 # Restarts the block producing node periodically if it's not already running.
 #
-# Line 10-13 should be added to "crontab -e"
+# Line 10-13 should be added to: "crontab -e"
 : <<'COMMENT'
 * * * * * /usr/bin/bash ${HOME}/cardano-my-node/startBlockProducingNode.sh
 * * * * * ( sleep 15 ; usr/bin/bash ${HOME}/cardano-my-node/startBlockProducingNode.sh )
