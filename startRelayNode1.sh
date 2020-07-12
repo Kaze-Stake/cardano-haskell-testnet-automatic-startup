@@ -21,10 +21,10 @@ then
     DIRECTORY=/home/kaze/cardano-my-node/relaynode1
     export CARDANO_NODE_SOCKET_PATH="${DIRECTORY}/db/socket"
     HOSTADDR=0.0.0.0
-    TOPOLOGY=${DIRECTORY}/shelley_testnet-topology.json
+    TOPOLOGY=${DIRECTORY}/mainnet_candidate-topology.json
     DB_PATH=${DIRECTORY}/db
     SOCKET_PATH=${DIRECTORY}/db/socket
-    CONFIG=${DIRECTORY}/shelley_testnet-config.json
+    CONFIG=${DIRECTORY}/mainnet_candidate-config.json
 
 
 
